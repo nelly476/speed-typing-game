@@ -12,7 +12,7 @@ function App() {
     startGame,
     count,
     handleChange,
-  } = useWordGame();
+  } = useWordGame(5);
 
   return (
     <div>
